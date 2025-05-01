@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leave History</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- DataTables CSS -->
+<link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+
+<!-- jQuery & DataTables JS -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+
+</head>
+<body>
+<div class="container mt-5">
+  <h3>Leave History</h3>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Start</th>
+        <th>End</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>PTO</td>
+        <td>2025-05-01</td>
+        <td>2025-05-03</td>
+        <td><span class="badge bg-success">Approved</span></td>
+      </tr>
+      <tr>
+        <td>Sick</td>
+        <td>2025-03-15</td>
+        <td>2025-03-17</td>
+        <td><span class="badge bg-warning text-dark">Pending</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
